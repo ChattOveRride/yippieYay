@@ -63,7 +63,7 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   musictitle.innerText = song.title;
-  audio.src = `/assets/tracks/${song.source}.ogg`;
+  audio.src = `assets/tracks/${song.source}.ogg`;
 }
 
 // Play song
